@@ -43,7 +43,7 @@ namespace StudentApp
             par.ParagraphFormat.Alignment = HorizontalAlignment.Left;
 
             // Add some text content.
-            par.Content.End.Insert("Hello my name is<Aditya> ", new CharacterFormat() { FontName = "Calibri", Size = 16.0, FontColor = Color.Black });
+            par.Content.End.Insert("Hello my name is<Aditya> ", new CharacterFormat() { FontName = "Calibri", Size = 16.0, FontColor = Color.DarkBlue });
 
             // Our picture has InlineLayout - it doesn't have positioning by coordinates
             // and located as flowing content together with text (Run and other Inline elements).
@@ -53,7 +53,7 @@ namespace StudentApp
             par.Inlines.Add(pict1);
 
             // Add some text content.
-            par.Content.End.Insert(" Picture at my friend bday party.", new CharacterFormat() { FontName = "Calibri", Size = 16.0, FontColor = Color.Black });
+            par.Content.End.Insert(" Picture at my friend bday party.", new CharacterFormat() { FontName = "Calibri", Size = 16.0, FontColor = Color.DarkBlue });
 
             // 2. Picture with FloatingLayout:
             // Floating layout means that the Picture (or Shape) is positioned by coordinates.
